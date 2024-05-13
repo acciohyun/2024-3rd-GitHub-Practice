@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Mia: LetterView {
+struct MiaView: LetterView {
     var name: String = "Mia"
     var body: some View {
         VStack(spacing: 15) {
@@ -35,5 +35,5 @@ struct Mia: LetterView {
 }
 
 #Preview {
-    Mia()
+    MiaView()
 }
